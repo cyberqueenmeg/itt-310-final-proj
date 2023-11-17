@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T18:14:13.394Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="mKAC_n6XySdAZq_VE29h" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T18:15:54.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="mU0iVMJDV9Kw_fTWBbaF" version="22.1.3" type="github">
   <diagram name="Page-1" id="0tuLwzUozmUHdHJlJOqu">
     <mxGraphModel dx="743" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -63,7 +63,7 @@
         <mxCell id="bSMvVPboWSpiL0ENMX8w-15" value="Exit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="355" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bSMvVPboWSpiL0ENMX8w-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bSMvVPboWSpiL0ENMX8w-18" target="bSMvVPboWSpiL0ENMX8w-30">
+        <mxCell id="bSMvVPboWSpiL0ENMX8w-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bSMvVPboWSpiL0ENMX8w-18" target="bSMvVPboWSpiL0ENMX8w-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bSMvVPboWSpiL0ENMX8w-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -72,11 +72,11 @@
         <mxCell id="bSMvVPboWSpiL0ENMX8w-19" value="Enter text to encrypt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="385" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="bSMvVPboWSpiL0ENMX8w-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bSMvVPboWSpiL0ENMX8w-20" target="bSMvVPboWSpiL0ENMX8w-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bSMvVPboWSpiL0ENMX8w-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="370" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bSMvVPboWSpiL0ENMX8w-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bSMvVPboWSpiL0ENMX8w-21" target="bSMvVPboWSpiL0ENMX8w-32">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bSMvVPboWSpiL0ENMX8w-21" value="Enter text to decrypt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="385" width="60" height="30" as="geometry" />
@@ -85,28 +85,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bSMvVPboWSpiL0ENMX8w-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bSMvVPboWSpiL0ENMX8w-31" value="UDF to encrypt text with the cipher" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="475" width="60" height="30" as="geometry" />
+          <mxGeometry x="220" y="575" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bSMvVPboWSpiL0ENMX8w-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bSMvVPboWSpiL0ENMX8w-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bSMvVPboWSpiL0ENMX8w-33" target="bSMvVPboWSpiL0ENMX8w-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bSMvVPboWSpiL0ENMX8w-33" value="UDF to decrypt text with the cipher" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="475" width="60" height="30" as="geometry" />
+          <mxGeometry x="560" y="575" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bSMvVPboWSpiL0ENMX8w-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bSMvVPboWSpiL0ENMX8w-36" target="bSMvVPboWSpiL0ENMX8w-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bSMvVPboWSpiL0ENMX8w-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bSMvVPboWSpiL0ENMX8w-37" value="Show Result" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="565" width="60" height="30" as="geometry" />
+          <mxGeometry x="220" y="665" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bSMvVPboWSpiL0ENMX8w-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bSMvVPboWSpiL0ENMX8w-38">
           <mxGeometry relative="1" as="geometry">
@@ -114,10 +114,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bSMvVPboWSpiL0ENMX8w-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bSMvVPboWSpiL0ENMX8w-39" value="Show Result" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="565" width="60" height="30" as="geometry" />
+          <mxGeometry x="560" y="665" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSMvVPboWSpiL0ENMX8w-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bSMvVPboWSpiL0ENMX8w-44" target="bSMvVPboWSpiL0ENMX8w-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bSMvVPboWSpiL0ENMX8w-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bSMvVPboWSpiL0ENMX8w-45" value="UDF to check for invalid characters" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="485" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bSMvVPboWSpiL0ENMX8w-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bSMvVPboWSpiL0ENMX8w-46" target="bSMvVPboWSpiL0ENMX8w-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bSMvVPboWSpiL0ENMX8w-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bSMvVPboWSpiL0ENMX8w-47" value="UDF to check for invalid characters" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="485" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
