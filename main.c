@@ -8,40 +8,10 @@
 #include <stdint.h>
 
 // initial UDF definitions
-void projectEntry();
 void mainMenu();
 void encode();
 void decode();
 int quit();
-
-
-// name check
-void projectEntry() {
-	system("cls");
-	char fName[1024]; //define variables for first and last name
-	char lName[1024];
-	printf("Please enter the first name: \n"); //enter first name
-	scanf_s("%s", &fName, 1024);
-	if (strcmp(fName, "Megan") == 0) { //compare string entered to valid first name
-		printf("\nFirst Name check passed\n");
-		printf("Please enter the last name: \n"); //enter last name
-		scanf_s("%s", &lName, 1024);
-		if (strcmp(lName, "Howell") == 0) { //compare string entered to valid last name
-			printf("Last Name check passed\n");
-			printf("All checks passed. Entering the program...\n\n");
-			system("cls");
-			mainMenu();
-		}
-		else {
-			printf("Last Name check failed. Try again.\n");
-			projectEntry(); //re-enter project entry menu to try again
-		}
-	}
-	else {
-		printf("\nFirst Name check failed. Try again.\n");
-		projectEntry(); //re-enter project entry menu to try again
-	}
-}
 
 // project main menu
 void mainMenu() {
@@ -136,24 +106,10 @@ int quit() {
 	system("cls");
 	//quit program
 	printf("Quitting...\n\n");
-	//ascii art
-	printf("    |,\\/,| |[_' |[_]) |[_]) \\\\//\n");
-	printf("    ||\\/|| |[_, ||'\\, ||'\\,  ||\n");
-	printf("            ___ __ __ ____  __  __  ____  _  _    __    __\n");
-	printf("           // ' |[_]| |[_]) || ((_' '||' |,\\/,|  //\\\\  ((_'\n");
-	printf("           \\\\_, |[']| ||'\\, || ,_))  ||  ||\\/|| //``\\\\ ,_))\n");
-	printf("\n\n\n");
-	printf("__     _  __ \n");
-	printf("| \\__ `\\O/  `--  {}    \\}    {/\n");
-	printf("\\    \_(~)/______/=____/=____/=*\n");
-	printf(" \\=======/    //\\\\  >\\/> || \> \n");
-	printf("----`---`---  `` `` ```` `` ``\n");
-	printf("\n");
-	
 	return 0;
 }
 
 int main() {
-	//call project entry UDF
-	projectEntry();
+	//call main menu UDF
+	mainMenu();
 }
